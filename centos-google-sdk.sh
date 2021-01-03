@@ -9,5 +9,5 @@ gpgkey=https://packages.cloud.google.com/yum/doc/yum-key.gpg
        https://packages.cloud.google.com/yum/doc/rpm-package-key.gpg
 EOM
 
-sudo dnf install google-cloud-sdk
+sudo dnf install google-cloud-sdk -y
 gcloud init
